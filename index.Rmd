@@ -1,0 +1,43 @@
+---
+title: "Prueba"
+author: "Elizabeth Lopez"
+date: "2025-06-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Gráfico 1: Interpretación: 
+
+El gráfico 1 mediante un análisis tridimensional muestra una interacción dinámica entre condiciones socioeconómicas y particularidades estructurales en la configuración del precio promedio de las viviendas (medv) en Boston. Dentro de los hallazgos destacan dos tendencias clave: primero, existe un efecto disminución del porcentaje de población de bajos ingresos (Lstat) sobre los precios inmobiliarios, manifestando una relación inversamente proporcional entre ambas variables. Segundo, se evidencia una asociación directa entre el número promedio de habitaciones (rm) y el valor de mercado, donde propiedades más espaciosas registran precios superiores.
+La intersección de estos factores delimita patrones espaciales claros: los sectores con baja densidad de población vulnerable (Lstat) y viviendas amplias (rm) exhiben los mayores valores, mientras que las áreas con alta precariedad socioeconómica y unidades habitacionales reducidas presentan una depreciación marcada. Esta dualidad enfatiza como operan de forma sinérgica las extensiones sociales y físicas para determinar los precios.
+
+## Gráfico 2: Interpretación:
+
+El análisis integrado de los gráficos revela dos fenómenos clave en el mercado inmobiliario de Boston. En primer lugar, la distribución de Lstat  presenta un marcado sesgo positivo, indicando que la mayoría de los barrios muestran bajos niveles de dificultad socioeconómica, mientras que un grupo reducido de zonas concentra altos índices de pobreza. Paralelamente, se observa que el valor de las viviendas (medv) está determinado por la infraestructura de las mismas y su valor, mientras mayor es el porcentaje de población vulnerable (Lstat), menor es el valor de las propiedades, evidenciando una correlación negativa. Por el contrario, viviendas con mayor número de habitaciones (rm) tienden a alcanzar precios más elevados, mostrando una relación positiva. La conjunción de estos patrones permite identificar un escenario de segmentación espacial clara: las áreas con bajo Lstat y alto rm presentan los valores inmobiliarios más altos, mientras que aquellas con alta vulnerabilidad y viviendas pequeñas registran los precios más bajos.
+En síntesis, los resultados destacan que el mercado inmobiliario en Boston no solo responde a características físicas de las propiedades, sino también al perfil socioeconómico de sus habitantes, generando una geografía urbana marcada por la desigualdad. Esta dualidad sugiere que políticas públicas enfocadas en reducir la segregación residencial y mejorar las condiciones de vivienda podrían mitigar las disparidades observadas.
+
+## Gráfico 3: Interpretación:
+
+El gráfico muestra una relación no lineal e inversa entre el porcentaje de población de bajos ingresos (Lstat) y el valor medio de las viviendas (medv). Cuando Lstat aumenta, reflejando áreas con mayor desventaja socioeconómica, el precio promedio de las propiedades disminuye notablemente, especialmente en los niveles más bajos de Lstat, donde la caída es más abrupta.
+
+Además, se aprecia una distinción según la cercanía al río (1 = limita con el río, 0 = no). Las viviendas cercanas al río (representadas con puntos azules) suelen tener valores más elevados en comparación con las que no están próximas, incluso en rangos similares de Lstat. Esto indica que la proximidad al río podría ser un factor valorizante, mitigando en cierta medida el impacto negativo de un alto Lstat.
+
+En resumen, el gráfico subraya cómo tanto variables socioeconómicas (Lstat) como locacionales (vecindad con el río) interactúan para determinar el valor de las propiedades en el mercado de Boston.
+
+## Conclusión General
+
+El análisis revela que el porcentaje de población vulnerable (Lstat) impacta inversamente el valor de las viviendas (medv) en Boston: a mayor Lstat, menor medv, especialmente en sus rangos bajos. Adicionalmente, las propiedades con más habitaciones (rm) tienden a ser más valiosas, y aquellas cercanas al río mantienen precios altos incluso en zonas socioeconómicamente desfavorecidas.
+
+En conclusión, el mercado inmobiliario local está determinado por tres factores clave:
+
+Socioeconómicos (Lstat): Relación negativa con medv.
+
+Físicos (rm): Más habitaciones incrementan el valor.
+
+Geográficos (río): La proximidad actúa como plusvalía.
+
+Estos elementos interactúan definiendo la estructura de precios en la ciudad.
+
